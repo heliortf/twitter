@@ -8,16 +8,20 @@ var portugues = {
   PAGE_TITLE : 'Twitter Potentials - Módulo para o vTiger 6'
 };
 
+var espanhol = {
+  PAGE_TITLE : 'Twitter Potentials - Modulo para el vTiger 6'
+}
+
 app.config(['$translateProvider', function ($translateProvider) {
   // add translation table
   $translateProvider
     .translations('en_US', ingles)
     .translations('pt_BR', portugues)
+    .translations('es', espanhol)
     .preferredLanguage('pt_BR');
 }]);
 
 app.controller('SiteController', ['$scope', '$translate', '$rootScope', function($scope, $translate, $rootScope){
-    $scope.linguagem = "pt_BR";
 
     $scope.mudarLinguagem = function(linguagem){
       $translate.use(linguagem);
