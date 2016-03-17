@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="siteApp" ng-controller="SiteController as site">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Xeon | OnePage Responsive Theme</title>
+    <title>{{ 'PAGE_TITLE' | translate}}</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/prettyPhoto.css" rel="stylesheet">
@@ -41,8 +41,10 @@
                         <li><a href="#portfolio">Portfolio</a></li>
                         <li><a href="#pricing">Pricing</a></li>
                         <li><a href="#about-us">About Us</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#contact">FAQ</a></li>
                     </ul>
+                    <button type="button" ng-click="mudarLinguagem('en_US')">ING</button>
+                    <button type="button" ng-click="mudarLinguagem('pt_BR')">PORT</button>
                 </div>
             </div>
         </div>
@@ -141,7 +143,7 @@
                             <div class="portfolio-image">
                                 <img src="images/portfolio/thumb/item1.jpg" alt="">
                                 <div class="overlay">
-                                    <a class="preview btn btn-danger" title="Lorem ipsum dolor sit amet" href="images/portfolio/full/item1.jpg"><i class="icon-eye-open"></i></a>             
+                                    <a class="preview btn btn-danger" title="Lorem ipsum dolor sit amet" href="images/portfolio/full/item1.jpg"><i class="icon-eye-open"></i></a>
                                 </div>
                             </div>
                             <h5>Lorem ipsum dolor sit amet</h5>
@@ -152,10 +154,10 @@
                             <div class="portfolio-image">
                                 <img src="images/portfolio/thumb/item2.jpg" alt="">
                                 <div class="overlay">
-                                    <a class="preview btn btn-danger" title="Lorem ipsum dolor sit amet" href="images/portfolio/full/item2.jpg"><i class="icon-eye-open"></i></a>  
+                                    <a class="preview btn btn-danger" title="Lorem ipsum dolor sit amet" href="images/portfolio/full/item2.jpg"><i class="icon-eye-open"></i></a>
                                 </div>
-                            </div> 
-                            <h5>Lorem ipsum dolor sit amet</h5>         
+                            </div>
+                            <h5>Lorem ipsum dolor sit amet</h5>
                         </div>
                     </li><!--/.portfolio-item-->
                     <li class="portfolio-item bootstrap wordpress">
@@ -163,68 +165,68 @@
                             <div class="portfolio-image">
                                 <img src="images/portfolio/thumb/item3.jpg" alt="">
                                 <div class="overlay">
-                                    <a class="preview btn btn-danger" title="Lorem ipsum dolor sit amet" href="images/portfolio/full/item3.jpg"><i class="icon-eye-open"></i></a>        
-                                </div> 
+                                    <a class="preview btn btn-danger" title="Lorem ipsum dolor sit amet" href="images/portfolio/full/item3.jpg"><i class="icon-eye-open"></i></a>
+                                </div>
                             </div>
-                            <h5>Lorem ipsum dolor sit amet</h5>          
-                        </div>           
+                            <h5>Lorem ipsum dolor sit amet</h5>
+                        </div>
                     </li><!--/.portfolio-item-->
                     <li class="portfolio-item joomla wordpress apps">
                         <div class="item-inner">
                             <div class="portfolio-image">
                                 <img src="images/portfolio/thumb/item4.jpg" alt="">
                                 <div class="overlay">
-                                    <a class="preview btn btn-danger" title="Lorem ipsum dolor sit amet" href="images/portfolio/full/item4.jpg"><i class="icon-eye-open"></i></a>          
-                                </div>   
+                                    <a class="preview btn btn-danger" title="Lorem ipsum dolor sit amet" href="images/portfolio/full/item4.jpg"><i class="icon-eye-open"></i></a>
+                                </div>
                             </div>
-                            <h5>Lorem ipsum dolor sit amet</h5>        
-                        </div>           
+                            <h5>Lorem ipsum dolor sit amet</h5>
+                        </div>
                     </li><!--/.portfolio-item-->
                     <li class="portfolio-item joomla html">
                         <div class="item-inner">
                             <div class="portfolio-image">
                                 <img src="images/portfolio/thumb/item5.jpg" alt="">
                                 <div class="overlay">
-                                    <a class="preview btn btn-danger" title="Lorem ipsum dolor sit amet" href="images/portfolio/full/item5.jpg"><i class="icon-eye-open"></i></a>          
-                                </div>  
+                                    <a class="preview btn btn-danger" title="Lorem ipsum dolor sit amet" href="images/portfolio/full/item5.jpg"><i class="icon-eye-open"></i></a>
+                                </div>
                             </div>
-                            <h5>Lorem ipsum dolor sit amet</h5>  
-                        </div>       
+                            <h5>Lorem ipsum dolor sit amet</h5>
+                        </div>
                     </li><!--/.portfolio-item-->
                     <li class="portfolio-item wordpress html">
                         <div class="item-inner">
                             <div class="portfolio-image">
                                 <img src="images/portfolio/thumb/item6.jpg" alt="">
                                 <div class="overlay">
-                                    <a class="preview btn btn-danger" title="Lorem ipsum dolor sit amet" href="images/portfolio/full/item6.jpg"><i class="icon-eye-open"></i></a>           
-                                </div>  
+                                    <a class="preview btn btn-danger" title="Lorem ipsum dolor sit amet" href="images/portfolio/full/item6.jpg"><i class="icon-eye-open"></i></a>
+                                </div>
                             </div>
-                            <h5>Lorem ipsum dolor sit amet</h5>         
-                        </div>           
+                            <h5>Lorem ipsum dolor sit amet</h5>
+                        </div>
                     </li><!--/.portfolio-item-->
                     <li class="portfolio-item joomla html">
                         <div class="item-inner">
                             <div class="portfolio-image">
                                 <img src="images/portfolio/thumb/item5.jpg" alt="">
                                 <div class="overlay">
-                                    <a class="preview btn btn-danger" title="Lorem ipsum dolor sit amet" href="images/portfolio/full/item5.jpg"><i class="icon-eye-open"></i></a>          
-                                </div>  
+                                    <a class="preview btn btn-danger" title="Lorem ipsum dolor sit amet" href="images/portfolio/full/item5.jpg"><i class="icon-eye-open"></i></a>
+                                </div>
                             </div>
-                            <h5>Lorem ipsum dolor sit amet</h5>  
-                        </div>       
+                            <h5>Lorem ipsum dolor sit amet</h5>
+                        </div>
                     </li><!--/.portfolio-item-->
                     <li class="portfolio-item wordpress html">
                         <div class="item-inner">
                             <div class="portfolio-image">
                                 <img src="images/portfolio/thumb/item6.jpg" alt="">
                                 <div class="overlay">
-                                    <a class="preview btn btn-danger" title="Lorem ipsum dolor sit amet" href="images/portfolio/full/item6.jpg"><i class="icon-eye-open"></i></a>           
-                                </div>   
+                                    <a class="preview btn btn-danger" title="Lorem ipsum dolor sit amet" href="images/portfolio/full/item6.jpg"><i class="icon-eye-open"></i></a>
+                                </div>
                             </div>
-                            <h5>Lorem ipsum dolor sit amet</h5>        
-                        </div>         
+                            <h5>Lorem ipsum dolor sit amet</h5>
+                        </div>
                     </li><!--/.portfolio-item-->
-                </ul>   
+                </ul>
             </div><!--/.box-->
         </div><!--/.container-->
     </section><!--/#portfolio-->
@@ -235,7 +237,7 @@
                 <div class="center">
                     <h2>See our Pricings</h2>
                     <p class="lead">Pellentesque habitant morbi tristique senectus et netus et <br>malesuada fames ac turpis egestas.</p>
-                </div><!--/.center-->   
+                </div><!--/.center-->
                 <div class="big-gap"></div>
                 <div id="pricing-table" class="row">
                     <div class="col-sm-4">
@@ -274,8 +276,8 @@
                             <li class="plan-action"><a href="#" class="btn btn-primary btn-lg">Signup</a></li>
                         </ul>
                     </div><!--/.col-sm-4-->
-                </div> 
-            </div> 
+                </div>
+            </div>
         </div>
     </section><!--/#pricing-->
 
@@ -302,7 +304,7 @@
                                         <p><img class="img-responsive img-thumbnail img-circle" src="images/team2.jpg" alt="" ></p>
                                         <h3>Donald Ford<small class="designation">Senior Vice President</small></h3>
                                     </div>
-                                </div>        
+                                </div>
                                 <div class="col-sm-4">
                                     <div class="member">
                                         <p><img class="img-responsive img-thumbnail img-circle" src="images/team3.jpg" alt="" ></p>
@@ -318,13 +320,13 @@
                                         <p><img class="img-responsive img-thumbnail img-circle" src="images/team3.jpg" alt="" ></p>
                                         <h3>David Robbins<small class="designation">Co-Founder</small></h3>
                                     </div>
-                                </div>   
+                                </div>
                                 <div class="col-sm-4">
                                     <div class="member">
                                         <p><img class="img-responsive img-thumbnail img-circle" src="images/team1.jpg" alt="" ></p>
                                         <h3>Philip Mejia<small class="designation">Marketing Manager</small></h3>
                                     </div>
-                                </div>     
+                                </div>
                                 <div class="col-sm-4">
                                     <div class="member">
                                         <p><img class="img-responsive img-thumbnail img-circle" src="images/team2.jpg" alt="" ></p>
@@ -350,33 +352,9 @@
             <div class="box last">
                 <div class="row">
                     <div class="col-sm-6">
-                        <h1>Contact Form</h1>
-                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-                        <div class="status alert alert-success" style="display: none"></div>
-                        <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="sendemail.php" role="form">
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" required="required" placeholder="Name">
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" required="required" placeholder="Email address">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-sm-12">
-                                    <div class="form-group">
-                                        <textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="Message"></textarea>
-                                    </div>
-                                    <div class="form-group">
-                                        <button type="submit" class="btn btn-danger btn-lg">Send Message</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
+                        <h1>Frequently Asked Questions</h1>
+                        <p>These may help you.</p>
+
                     </div><!--/.col-sm-6-->
                     <div class="col-sm-6">
                         <h1>Our Address</h1>
@@ -434,6 +412,24 @@
         </div>
     </footer><!--/#footer-->
 
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+
+    <!-- I18n -->
+      <script src="https://cdn.rawgit.com/SlexAxton/messageformat.js/0.2.2/messageformat.js"></script>
+      <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular.js"></script>-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular-animate.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular-cookies.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular-sanitize.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-translate/2.8.1/angular-translate.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-translate-interpolation-messageformat/2.8.1/angular-translate-interpolation-messageformat.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-translate-storage-cookie/2.8.1/angular-translate-storage-cookie.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-translate-storage-local/2.8.1/angular-translate-storage-local.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-translate-loader-url/2.8.1/angular-translate-loader-url.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-translate-loader-static-files/2.8.1/angular-translate-loader-static-files.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-translate-handler-log/2.8.1/angular-translate-handler-log.js"></script>
+    <!-- Fim - I18n -->
+
+    <script src="js/angular/app.js"></script>
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.isotope.min.js"></script>
