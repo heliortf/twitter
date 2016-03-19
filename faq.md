@@ -19,4 +19,12 @@ ficam protegidos.
 
 
 [ Como Utilizar o Twitter Potentials ]
-Como posso utilizar o módulo Twitter Potentials se
+1. Quem é o seu público alvo no Twitter?
+R:
+
+2. Quantas pessoas pretende alcançar?
+R:
+
+
+[ Limitações ]
+1. 

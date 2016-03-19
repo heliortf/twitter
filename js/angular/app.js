@@ -1,18 +1,28 @@
 var app = angular.module('siteApp', ['pascalprecht.translate']);
 
 var ingles = {
-  PAGE_TITLE : 'Twitter Potentials - vTiger 6 Module'
+  PAGE_TITLE : 'Twitter Potentials - vTiger 6 Module',
+
+  MENU_FEATURES : 'Features',
+  MENU_FAQ      : 'FAQ'
 };
 
 var portugues = {
   PAGE_TITLE : 'Twitter Potentials - Módulo para o vTiger 6',
 
-  
+  // Menu
+  MENU_FEATURES : 'Funcionalidades',
+  MENU_FAQ      : 'Perguntas Frequentes',
+
   FAQ_PRECISA_CONTA_TWITTER : 'Preciso ter uma conta no Twitter para usar o Twitter Potentials no vTiger 6?'
 };
 
 var espanhol = {
-  PAGE_TITLE : 'Twitter Potentials - Modulo para el vTiger 6'
+  PAGE_TITLE : 'Twitter Potentials - Modulo para el vTiger 6',
+
+  // Menu
+  MENU_FEATURES : 'Funcionalidades',
+  MENU_FAQ      : 'Preguntas frecuentes'
 }
 
 app.config(['$translateProvider', function ($translateProvider) {
