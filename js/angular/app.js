@@ -5,7 +5,10 @@ var ingles = {
 };
 
 var portugues = {
-  PAGE_TITLE : 'Twitter Potentials - Módulo para o vTiger 6'
+  PAGE_TITLE : 'Twitter Potentials - Módulo para o vTiger 6',
+
+  
+  FAQ_PRECISA_CONTA_TWITTER : 'Preciso ter uma conta no Twitter para usar o Twitter Potentials no vTiger 6?'
 };
 
 var espanhol = {
