@@ -14,6 +14,11 @@ var portugues = {
   MENU_FEATURES : 'Funcionalidades',
   MENU_FAQ      : 'Perguntas Frequentes',
 
+  LBL_TWEET_MANAGEMENT : 'Gerenciamento de Tweets',
+  LBL_TWEET_MANAGEMENT_DESCRIPTION : 'Você pode tweetar, retweetar e curtir tweets como faria no twitter.com. É fácil gerenciar suas mensagens com o Twitter Potentials.',
+
+
+
   FAQ_PRECISA_CONTA_TWITTER : 'Preciso ter uma conta no Twitter para usar o Twitter Potentials no vTiger 6?'
 };
 
