@@ -20,10 +20,10 @@ var portugues = {
   LBL_TWEET_MANAGEMENT : 'Gerenciamento de Tweets',
   LBL_TWEET_MANAGEMENT_DESCRIPTION : 'Você pode tweetar, retweetar e curtir tweets como faria no twitter.com. É fácil gerenciar suas mensagens com o Twitter Potentials.',
 
-  LBL_TO_ACCOUNTS : 'Twitters em Organizações',
+  LBL_TO_ACCOUNTS : 'Gere Leads',
   LBL_TO_ACCOUNTS_DESCRIPTION : 'Seus seguidores ou amigos podem ser transformados em Organizações, Leads ou Contatos.',
 
-  LBL_GENERATE_POTENTIALS : 'Gere Oportunidades',
+  LBL_GENERATE_POTENTIALS : 'Crie Oportunidades',
   LBL_GENERATE_POTENTIALS_DESCRIPTION : 'As oportunidades de negócio estão no próprio Twitter. Use-as a partir do módulo do Twitter para o vTiger',
 
   FAQ_PRECISA_CONTA_TWITTER : 'Preciso ter uma conta no Twitter para usar o Twitter Potentials no vTiger 6?'
