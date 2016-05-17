@@ -23,6 +23,8 @@ var portugues = {
   LBL_TO_ACCOUNTS : 'Twitters em Organizações',
   LBL_TO_ACCOUNTS_DESCRIPTION : 'Seus seguidores ou amigos podem ser transformados em Organizações, Leads ou Contatos.',
 
+  LBL_GENERATE_POTENTIALS : 'Gere Oportunidades',
+  LBL_GENERATE_POTENTIALS_DESCRIPTION : 'As oportunidades de negócio estão no próprio Twitter. Use-as a partir do módulo do Twitter para o vTiger',
 
   FAQ_PRECISA_CONTA_TWITTER : 'Preciso ter uma conta no Twitter para usar o Twitter Potentials no vTiger 6?'
 };
