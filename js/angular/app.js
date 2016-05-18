@@ -16,6 +16,7 @@ var portugues = {
   // Menu
   MENU_FEATURES : 'Funcionalidades',
   MENU_FAQ      : 'Perguntas Frequentes',
+  MENU_COMPRE   : 'Comprar',
 
   LBL_TWEET_MANAGEMENT : 'Gerenciamento de Tweets',
   LBL_TWEET_MANAGEMENT_DESCRIPTION : 'Você pode tweetar, retweetar e curtir tweets como faria no twitter.com. É fácil gerenciar suas mensagens com o Twitter Potentials.',
@@ -25,6 +26,12 @@ var portugues = {
 
   LBL_GENERATE_POTENTIALS : 'Crie Oportunidades',
   LBL_GENERATE_POTENTIALS_DESCRIPTION : 'As oportunidades de negócio estão no próprio Twitter. Use-as a partir do módulo do Twitter para o vTiger',
+
+  LBL_TELAS_MODULO : 'Telas do Módulo',
+  LBL_TELAS_MODULO_DESCRIPTION : 'Veja abaixo algumas das telas disponíveis para você conhecer o módulo do Twitter Potentials.',
+
+  LBL_COMPRAR_MODULO : 'Compre no Code Canyon',
+  LBL_COMPRAR_MODULO_DESCRIPTION : 'Nosso módulo do Twitter para o vTiger 6 pode ser comprado no Code Canyon.',
 
   FAQ_PRECISA_CONTA_TWITTER : 'Preciso ter uma conta no Twitter para usar o Twitter Potentials no vTiger 6?'
 };
